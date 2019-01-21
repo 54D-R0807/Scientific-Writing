@@ -45,4 +45,11 @@ You can find those packages on https://chocolatey.org/packages
 
 Here is a list of my most common installed applications:
 
-7zip adblockpluschrome adblockplus-firefox advanced-ip-scanner aria2 audacity audacity-lame avidemux ccleaner citrix-receiver clementine chromium copyq dia ext2explore ffmpeg firefox filezilla gimp git github googlechrome gpg4win hashcheck infrarecorder inkscape kate kitty kodi microsoft-message-analyzer nmap notepadplusplus pdfcreator qtcreator sqlitebrowser sqlite-studio.portable sql-server-management-studio sysinternals tor-browser treesizefree ultravnc unetbootin visualstudio2017community vlc vmwareworkstation wget winff win-youtube-dl wireshark wsus-offline-update youtube-dl youtube-dl-gui networkmonitor
+7zip adblockpluschrome adblockplus-firefox advanced-ip-scanner aria2 audacity audacity-lame avidemux ccleaner clementine chromium copyq dia ext2explore ffmpeg firefox filezilla gimp git github googlechrome gpg4win hashcheck infrarecorder inkscape kate kitty kodi microsoft-message-analyzer nmap notepadplusplus pdfcreator qtcreator sqlitebrowser sqlite-studio.portable sql-server-management-studio sysinternals tor-browser treesizefree ultravnc unetbootin visualstudio2017community vlc vmwareworkstation wget winff win-youtube-dl wireshark wsus-offline-update youtube-dl youtube-dl-gui networkmonitor
+/* TODO: List by categories */
+
+Here is an example of how to install multiple packages unattended:
+
+```
+choco install -y 7zip firefox adblockplus-firefox notepadplusplus vlc
+```
