@@ -53,3 +53,17 @@ Here is an example of how to install multiple packages unattended:
 ```
 choco install -y 7zip firefox adblockplus-firefox notepadplusplus vlc
 ```
+
+## Upgrading Chocolatey and updating packages
+More information can be found on the official website: https://chocolatey.org/docs/commandsupgrade </br>
+### Upgrading Chocolatey
+Once installed, Chocolatey can be upgraded in exactly the same way as any other package that has been installed using Chocolatey. Simply use the command to upgrade to the latest stable release of Chocolatey:
+```
+choco upgrade chocolatey
+```
+
+### Upgrading packages
+```
+choco upgrade all -y
+cup all -y
+```
